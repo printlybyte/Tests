@@ -10,5 +10,4 @@
 			  android:gravity="center"
 			  android:background="#ff44ff"
 			  android:id="@+id/text"/>
-	<T
 </LinearLayout>
