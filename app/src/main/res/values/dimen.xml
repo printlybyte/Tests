@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--用于大多数文字，内容，内容页-->
+    <dimen name="comm">14sp</dimen>
+</resources>

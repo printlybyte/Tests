@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.obsessive.tests">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".duanxin_yanzheng.SecurityCodeView_Test" />
+        <activity android:name=".AdapterViewFileper.ViewFileper_test" />
+        <activity android:name=".tupianlunbo.tupianlunbo_test" />
+        <activity android:name=".PagerSlidingTabStrip_indocer.PagerSliding_Test"></activity>
+        <activity android:name=".Search_listviiew.Search_list" />
+        <activity
+            android:name=".logoin.OtherLoginAct"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+        <activity android:name=".refreshRecyclerLayout.test.Rrfresh_Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

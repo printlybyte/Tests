@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#800"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.github.obsessive.tests.PagerSlidingTabStrip_indocer.PagerSlidingTabStrip
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent">
+
+    </com.github.obsessive.tests.PagerSlidingTabStrip_indocer.PagerSlidingTabStrip>
+</LinearLayout>
