@@ -11,18 +11,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".duanxin_yanzheng.SecurityCodeView_Test" />
         <activity android:name=".AdapterViewFileper.ViewFileper_test" />
         <activity android:name=".tupianlunbo.tupianlunbo_test" />
-        <activity android:name=".PagerSlidingTabStrip_indocer.PagerSliding_Test"></activity>
+        <activity android:name=".PagerSlidingTabStrip_indocer.PagerSliding_Test" />
         <activity android:name=".Search_listviiew.Search_list" />
         <activity
             android:name=".logoin.OtherLoginAct"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
         <activity android:name=".refreshRecyclerLayout.test.Rrfresh_Test">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".costomview_test.Test" />
+        <activity android:name=".eventbuss.event_tests"></activity>
     </application>
 
 </manifest>

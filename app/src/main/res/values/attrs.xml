@@ -13,4 +13,12 @@
         <attr name="pstsShouldExpand" format="boolean" />
         <attr name="pstsTextAllCaps" format="boolean" />
     </declare-styleable>
+    <attr name="titleText" format="string"></attr>
+    <attr name="titleColorr" format="color"></attr>
+    <attr name="titleSize" format="dimension"></attr>
+    <declare-styleable name="cosview">
+        <attr name="titleText" />
+        <attr name="titleColorr" />
+        <attr name="titleSize" />
+    </declare-styleable>
 </resources>
