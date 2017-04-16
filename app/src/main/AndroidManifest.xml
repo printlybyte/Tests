@@ -5,6 +5,22 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
+
+    <!--以下是来疯sdk需要声明的权限-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.autofocus" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,15 +37,21 @@
             android:name=".logoin.OtherLoginAct"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
-        <activity android:name=".refreshRecyclerLayout.test.Rrfresh_Test">
+        <activity android:name=".refreshRecyclerLayout.test.Rrfresh_Test" />
+        <activity android:name=".costomview_test.Test">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".costomview_test.Test" />
-        <activity android:name=".eventbuss.event_tests"></activity>
+        <activity android:name=".eventbuss.event_tests" />
+        <activity android:name=".luyin.luyin_test" />
+        <activity android:name=".roundmenuview.MainActivityTest" />
+
+        <service android:name=".sheji_moshhi.Servicesss" />
+
+        <activity android:name=".laifeng_sdk.laifengTest"></activity>
     </application>
 
 </manifest>

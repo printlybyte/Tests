@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_event_tests"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.github.obsessive.tests.eventbuss.event_tests">
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/evs_btn_test"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorAccent"
+        android:text="点我"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="10%"
+
+        ></Button>
+
+    <TextView
+        android:id="@+id/evs_txt_test"
+        android:width="0dp"
+        android:height="0dp"
+        android:textSize="13sp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="98%" />
+
+
+</android.support.percent.PercentRelativeLayout>

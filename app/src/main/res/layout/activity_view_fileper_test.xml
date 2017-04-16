@@ -7,16 +7,7 @@
     android:orientation="vertical"
     tools:context="com.github.obsessive.tests.AdapterViewFileper.ViewFileper_test">
 
-    <AdapterViewFlipper
-        android:id="@+id/adapterviewfllipper"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="9"
-        android:autoStart="true"
-    android:flipInterval="400"
-    android:loopViews="true">
-</AdapterViewFlipper>
-<LinearLayout
+    <LinearLayout
 android:layout_width="match_parent"
 android:layout_height="0dp"
 android:layout_weight="1"
@@ -31,7 +22,18 @@ android:orientation="horizontal">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="自动播放" />
-<Button
+
+        <AdapterViewFlipper
+            android:id="@+id/adapterviewfllipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:autoStart="true"
+        android:flipInterval="400"
+        android:loopViews="true">
+    </AdapterViewFlipper>
+
+        <Button
     android:id="@+id/Button53"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

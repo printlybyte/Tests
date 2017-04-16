@@ -14,6 +14,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
+import com.github.obsessive.tests.sheji_moshhi.Adapterwwwww;
 import com.github.obsessive.tests.webview.ScrollWebView;
 
 public class MainActivity extends AppCompatActivity  {
@@ -32,6 +33,9 @@ public class MainActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_main);
         initView();
 
+        Adapterwwwww adapterwwwww=new Adapterwwwww();
+        adapterwwwww.notifyDataSetChanged();
+
     }
 
     private void initView() {
@@ -39,7 +43,6 @@ public class MainActivity extends AppCompatActivity  {
         mWebView = (ScrollWebView) findViewById(R.id.web_view);
         mProgressBar = (ProgressBar) findViewById(R.id.progress_bar);
         mSwipeRefresh = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh);
-
         if (getIntent() == null) {
             return;
         }

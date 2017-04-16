@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_laifeng_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.obsessive.tests.laifeng_sdk.laifengTest">
+
+    <com.laifeng.sopcastsdk.ui.CameraLivingView
+        android:id="@+id/liveView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:aspect_ratio="0.8"/>
+</RelativeLayout>
